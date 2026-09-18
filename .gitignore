@@ -1,0 +1,8 @@
+.seed/
+__pycache__/
+.pytest_cache/
+build-demo.py
+reset-demo.sh
+verify_audit.py
+prague-*.yml
+preflight.*
