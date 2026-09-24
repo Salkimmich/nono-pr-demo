@@ -1,0 +1,15 @@
+{
+  "predicate": "https://nono.sh/attestation/trust-policy/v1",
+  "includes": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    ".goosehints",
+    ".mcp.json"
+  ],
+  "publishers": [],
+  "blocklist": {
+    "digests": [],
+    "publishers": []
+  },
+  "enforcement": "deny"
+}
