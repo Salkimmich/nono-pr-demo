@@ -8,7 +8,7 @@ import re
 import sys
 
 # GitHub issue URLs use the plural path segment.
-ISSUE_LINK = re.compile(r"https://github\.com/([\w.-]+)/([\w.-]+)/issue/(\d+)")
+ISSUE_LINK = re.compile(r"https://github\.com/([\w.-]+)/([\w.-]+)/issues/(\d+)")
 
 
 def lint(text: str) -> list[str]:
